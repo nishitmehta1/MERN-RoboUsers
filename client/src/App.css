@@ -1,0 +1,27 @@
+.main_div {
+  margin-top: 25px;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.users {
+  width: 48%;
+}
+
+.create_user {
+  width: 45%;
+}
+
+.user_div {
+  display: flex;
+  flex-flow: wrap-reverse row;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.eachUser {
+  margin-top: 20px;
+  align-self: flex-start;
+}
